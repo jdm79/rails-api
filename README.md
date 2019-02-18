@@ -1,21 +1,22 @@
-# How to make a Rails API
+# How to make a Rails API with PostgreSQL
 
 ## Create the Rails API 
 ```
-$ rails new my-rails-api --api --database=postgresql
-$ cd my-rails-api
-```
-## Create the schema
-```
-$ rake db:migrate
+$ rails new my_rails_api --api --database=postgresql
+$ cd my_rails_api
 ```
 ## Create the Post model and controller
 ```
 $ rails g scaffold Post title:string body:text
 ```
 ## Create the database
+This will create test, development and production databases named my_rails_api_test, my_rails_api_development and my_rails_api_production on the PostgreSQL server.
 ```
 $ rake db:setup
+```
+## Create the tables
+```
+$ rake db:migrate
 ```
 
 The API is now ready to go, so let's run the server:
