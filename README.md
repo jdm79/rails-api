@@ -1,29 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
 # How to make a Rails API
 
 ## Create the Rails API 
@@ -56,5 +30,35 @@ Be sure to click 'raw' and JSON (application/json) from the dropdown and click '
 Choose 'GET' from the dropdown on the left of the browser address box. Use this address: http://localhost:3000/posts/ (same as for the POST request). All posts in the database will be displayed. It should look something like this:
 
 ![GET request screenshot](https://github.com/jdm79/rails-api/blob/master/public/get-request.png)
+
+
+
+
+# README (to be filled in later)
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
 
 
