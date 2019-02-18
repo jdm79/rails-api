@@ -24,8 +24,9 @@ Things you may want to cover:
 * ...
 
 
-## How to make a Rails API
+# How to make a Rails API
 
+## Create the Rails API 
 ```
 $ rails new my-rails-api --api --database=postgresql
 $ cd my-rails-api
@@ -34,19 +35,25 @@ $ rails g scaffold Post title:string body:text
 $ rake db:setup
 $ rails s
 ```
+## How to send and receive requests using Postman
 
-Then in Postman (other products are available):
+In Postman (other products are available):
 
-address: http://localhost:3000/posts/
+Use this address: http://localhost:3000/posts/
 
-In the body of the POST request (the big empty box I feel is the best way to describe it), type
+## How to POST a message
 
+Choose 'POST' from the dropdown on the left of the browser address box. In the body of the POST request (the big empty box I feel is the best way to describe it), type
+```
 {"post": {"title": "mr postman", "body":"hello world!"}}
-
-Be sure to click 'raw' and JSON (application/json) from the dropdown.
+```
+Be sure to click 'raw' and JSON (application/json) from the dropdown and click 'SEND'. It should look something like this:
 
 ![POST request screenshot](https://github.com/jdm79/rails-api/blob/master/public/post-request.png)
 
+## How to GET all posts
+
+Choose 'GET' from the dropdown on the left of the browser address box. Use this address: http://localhost:3000/posts/ (same as for the POST request). All posts in the database will be displayed. It should look something like this:
 
 ![GET request screenshot](https://github.com/jdm79/rails-api/blob/master/public/get-request.png)
 
