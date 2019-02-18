@@ -45,9 +45,9 @@ In the body of the POST request (the big empty box I feel is the best way to des
 
 Be sure to click 'raw' and JSON (application/json) from the dropdown.
 
-![POST request screenshot]
+![POST request screenshot](https://github.com/jdm79/rails-api/blob/master/public/post-request.png)
 
 
-![GET request screenshot]
+![GET request screenshot](https://github.com/jdm79/rails-api/blob/master/public/get-request.png)
 
 
