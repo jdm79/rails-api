@@ -4,11 +4,27 @@
 ```
 $ rails new my-rails-api --api --database=postgresql
 $ cd my-rails-api
+```
+## Create the schema
+```
 $ rake db:migrate
+```
+## Create the Post model and controller
+```
 $ rails g scaffold Post title:string body:text
+```
+## Create the database
+```
 $ rake db:setup
+```
+
+The API is now ready to go, so let's run the server:
+```
 $ rails s
 ```
+
+We can now build a frontend (and/or mobile app) which can interact with our API. Or for now we can just use something like Postman app which gives us frontend functionality immediately, so we can test our API.
+
 ## How to send and receive requests using Postman
 
 In Postman (other products are available):
